@@ -7,11 +7,8 @@ flag = True
 
 print("Hello Python!")
 
-print(id(name))
-print(id(name2))
-
-# print(type(name))
-# print(type(num))
-# print(type(balance))
-# print(type(flag))
+print(type(name))
+print(type(num))
+print(type(balance))
+print(type(flag))
 
