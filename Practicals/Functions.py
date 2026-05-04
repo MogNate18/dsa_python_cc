@@ -1,8 +1,4 @@
 import random
-
-
-
-
 def max_min(numbers):
     minimum = numbers[0]
     for num in numbers:
