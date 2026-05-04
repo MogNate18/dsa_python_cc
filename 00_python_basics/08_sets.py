@@ -35,6 +35,7 @@ def add_elements():
 def remove_elements():
     """Remove elements from a set"""
     numbers = {1, 2, 3, 4}
+    
 
     numbers.remove(3)  # error if not found
     print("After remove:", numbers)
