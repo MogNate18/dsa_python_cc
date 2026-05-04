@@ -3,9 +3,9 @@
 def create_dictionary():
     """Create a simple dictionary"""
     student = {
-        "name": "Kelvin",
-        "age": 20,
-        "course": "Computer Science"
+        "name": "Nathan",
+        "age": 18,
+        "course": "Software Development"
     }
     print("Created dictionary:", student)
 
