@@ -14,7 +14,7 @@ def get_values():
     if result != -1:
         print(f"The value at index {result} is {values[result]}")
     else:
-        print(f"Not found")
+        print(f"Value enterd is not present")
 
 get_values()
 
