@@ -1,10 +1,10 @@
 print(f"This is a List")
-marks = [2,8,9,7,10]
+marks = [90,89,65,75]
 print(marks[2])
 print(f"**********************************************************************")
 
 print(f"This is a Tuple")
-person = ("Nathan", 18, "Chacha", 3456, "Strathmore University")
+person = ("Nathan", 20, "Chacha", 3456, "Strathmore University")
 print(person[3])
 
 print(f"***********************************************************************")
@@ -16,7 +16,7 @@ print(house["Age"])
 print(f"***********************************************************************")
 print(f"This is a set")
 cars = {"BMW","Mercedes","Audi","Porsche"}
-cars.add("Cardillac")
+cars.add("Bugatti")
 cars.add("Range Rover")
 cars.add("Lexus")
 cars.add("Toyota")
