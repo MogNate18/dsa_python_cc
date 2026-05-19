@@ -16,7 +16,7 @@ def selectionSort(unsorted_list):
     return unsorted_list
 
 def getValues():
-    unsorted_list = random.sample(range(1,100),5)
+    unsorted_list = random.sample(range(1,10),5)
     # unsorted_list = [5, 4, 3, 2, 1]
     print(f"Unordered list is : {unsorted_list}")
     sortedlist = selectionSort(unsorted_list)

@@ -26,7 +26,7 @@ def insertion_sort(unsorted_list):
 
 
 # 10 unique numbers from 1 to 99
-random_list = random.sample(range(1, 100), 10)
+random_list = random.sample(range(1, 10), 5)
 
 print("Unsorted list:", random_list)
 sorted_list = insertion_sort(random_list.copy())
