@@ -1,0 +1,14 @@
+name = "Nathan"
+name2="Roy"
+num = 25
+balance = 159.625
+flag = True
+
+
+print("Hello Python!")
+
+print(type(name))
+print(type(num))
+print(type(balance))
+print(type(flag))
+
