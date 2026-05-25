@@ -13,9 +13,18 @@ def bubbleSort(unsorted_list):
 
 def getValues():
     # unsortedList = [5, 4, 3, 2, 1]
-    unsortedList = random.sample(range(1000,3000),5)
+    unsortedList = random.sample(range(1,10),5)
     print(f"Unordered list is : {unsortedList}")
     sortedlist = bubbleSort(unsortedList)
-    print(f"Sorted list {sortedlist}")
+    print(f"Sorted list is: {sortedlist}")
 
 getValues()
+
+
+print(f"*******************************************************************")
+num1 = "John"
+num2 = "John"
+print(f"Look at the ID Number.")
+
+print(id(num1))
+print(id(num2))
